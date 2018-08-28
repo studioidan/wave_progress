@@ -1,8 +1,9 @@
 name: wave_progress_widget
 description: A custom wave progress widget
 version: 0.0.1
-author:
-homepage:
+author: Idan Ben Shimon <studioidan@gmail.com>
+email: studioidan@gmail.com
+homepage: https://github.com/studioidan/wave_progress
 
 dependencies:
   flutter:

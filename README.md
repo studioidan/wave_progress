@@ -21,17 +21,11 @@ dependencies:
 import 'package:wave_progress_widget/wave_progress.dart';
   ````
 
- 3. Select your favorite loader and add it as a widget!
- you can customise it however you like!
+ 3. Just add WaveProgress wherever you want!
+ you can customise it's border and fill color too!
  
  ````dart
- FlutterLoaders.pulse(
-              Icon(
-                Icons.android,
-                color: Colors.green,
-                size: 40.0,
-              ),
-              Colors.green)
+ WaveProgress(180.0, Colors.blue, Colors.blueAccent, _progress)
   ````
  
 ## Getting Started
