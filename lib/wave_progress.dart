@@ -27,6 +27,12 @@ class WaveProgressState extends State<WaveProgress>
 
     controller.repeat();
   }
+  
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
